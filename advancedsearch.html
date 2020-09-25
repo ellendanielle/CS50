@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+        body {
+            text-align: left;
+            padding-top: 100px;
+            font-size: 20px;
+            margin-inline-start: 50px;
+        }
+        h3 {
+            color: red;
+        }
+        input {
+            float: right;
+            margin-right: 900px;
+        }
+        #advbutton {
+            height: 30px;
+            width: 140px;
+            background-color: blue;
+            color: white;
+        }
+        #home {
+            position: absolute;
+            top:10px;
+            right: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <h3>Advanced Search</h3>
+        <div>Find pages with...</div>
+        <form action = "https://google.com/search">
+        <div>
+            All words:    
+            <input id = "allwords" type ="text" name="as_q">
+        </div><br>
+        <div>
+            This exact word or phrase: 
+            <input id = "exact" type = "text" name = "as_epq">
+        </div><br>
+        <div>
+            Any of these words: 
+            <input id = "any" type = "text" name = "as_oq">
+        </div><br>
+        <div>
+            None of these words: 
+            <input id = "none" type = "text" name = "as_eq">
+        </div><br>
+        <div>
+            <input id = "advbutton" type = "submit" value = "Advanced Search">
+        </div>
+    </form>
+    <a id="home" href="search.html">Back to Google Search</a>
+    </body>
+</html>
