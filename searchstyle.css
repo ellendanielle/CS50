@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+h3{
+    margin-top: 280px;
+}
+#q input{
+    height: 50px;
+    width: 400px;
+    border-radius: 30px;
+    outline-style: none;
+    font-size: 20px;
+    text-indent: 15px;
+}
+#q {
+    text-align: center;
+    padding-top: 10px;
+}
